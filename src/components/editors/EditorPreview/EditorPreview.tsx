@@ -120,7 +120,7 @@ const EditorPreview: FC<EditorPreviewProps> = ({}) => {
         // @ts-ignore
         form={form}
         options={options}
-        fetchTypeAheadValues={(_) => new Promise(() => {})}
+        fetchTypeAheadValues={(_: any) => new Promise(() => {})}
       />
       <div className={classes.buttons}>
         <CustomisedOutlineButton

@@ -1,7 +1,7 @@
 import { Grid, Tooltip } from '@mui/material';
 import CustomisedSwitch from '@styles/CustomisedSwitch';
 import useStyles from './FormTypeSwitch.styles';
-import HelpIcon from '@material-ui/icons/Help';
+import HelpIcon from '@mui/icons-material/Help';
 import React, { useContext } from 'react';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import classNames from 'classnames';

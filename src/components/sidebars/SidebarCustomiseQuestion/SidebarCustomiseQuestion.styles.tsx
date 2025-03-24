@@ -1,4 +1,4 @@
-import { makeStyles } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
 import { ITheme } from '@interfaces/index';
 
 // @ts-ignore

@@ -1,4 +1,5 @@
-import { makeStyles, withStyles } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import withStyles from '@mui/styles/withStyles';
 import { Card } from '@mui/material';
 import { ITheme } from '@interfaces/index';
 

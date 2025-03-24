@@ -10,6 +10,7 @@ import { NEW_WIZARD_SECTION_QUESTION } from '@constants/index';
 import { getUniqueId } from '@utils/itemHelpers';
 
 export const buildFormStructure = async (form: ExpandedForm): Promise<FormStructure> => {
+  // @ts-ignore
   const flattenedForm: JsonLdObj = await jsonld.flatten(form, {});
 
   // @ts-ignore

@@ -18,8 +18,8 @@ import { editLocalisedLabel, getIntl } from '@utils/formHelpers';
 import { Constants } from '@kbss-cvut/s-forms';
 import { createFakeChangeEvent } from '@utils/itemHelpers';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
-import DeleteIcon from '@material-ui/icons/Delete';
-import AddIcon from '@material-ui/icons/Add';
+import DeleteIcon from '@mui/icons-material/Delete';
+import AddIcon from '@mui/icons-material/Add';
 import { cloneDeep } from 'lodash';
 // @ts-ignore
 import JsonLdUtils from 'jsonld-utils';

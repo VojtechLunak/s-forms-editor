@@ -1,6 +1,6 @@
 import React, { FC, useContext, useMemo, useRef } from 'react';
 import useStyles from './ItemAdd.styles';
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@mui/icons-material/Add';
 import {
   detectIsChildNode,
   enableNotDraggableAndDroppable,

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import useStyles from './Header.styles';
-import HomeIcon from '@material-ui/icons/Home';
+import HomeIcon from '@mui/icons-material/Home';
 
 type Props = {};
 

@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useContext, useRef } from 'react';
 import useStyles from './FormCustomAttributeInput.styles';
 import TextField from '@mui/material/TextField';
-import Autocomplete from '@material-ui/lab/Autocomplete';
+import Autocomplete from '@mui/material/Autocomplete';
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import { FormStructureContext } from '@contexts/FormStructureContext';

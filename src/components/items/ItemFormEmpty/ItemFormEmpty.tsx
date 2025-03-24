@@ -2,7 +2,7 @@ import React, { FC, useContext, useEffect, useRef } from 'react';
 import useStyles, { CustomisedAccordionDetails } from './ItemFormEmpty.styles';
 import { Accordion } from '@mui/material';
 import { FormStructureContext } from '@contexts/FormStructureContext';
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@mui/icons-material/Add';
 import { CustomiseQuestionContext, OnSaveQuestionsCallback } from '@contexts/CustomiseQuestionContext';
 import { NEW_QUESTION, NEW_WIZARD_SECTION_QUESTION } from '@constants/index';
 import { EditorContext } from '@contexts/EditorContext';

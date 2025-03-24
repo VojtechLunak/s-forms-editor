@@ -1,6 +1,6 @@
 import { Chip, TextField } from '@mui/material';
 import React, { useContext, useMemo } from 'react';
-import { Autocomplete } from '@material-ui/lab';
+import Autocomplete from '@mui/material/Autocomplete';
 import { Constants, FormUtils } from '@kbss-cvut/s-forms';
 import { intersection } from 'lodash';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
@@ -142,7 +142,7 @@ const LayoutClassInput: React.FC<LayoutClassInputProps> = ({ question, handleCha
             />
           ))
         }
-        getOptionSelected={(option, value) => option.value === value.value}
+        isOptionEqualToValue={(option, value) => option.value === value.value}
         disableClearable={true}
       />
     ),

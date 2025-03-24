@@ -3,9 +3,9 @@ import { Badge, Tooltip } from '@mui/material';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import React, { FC, useContext } from 'react';
 import { Constants } from '@kbss-cvut/s-forms';
-import { Block, ExpandMore, Warning, VisibilityOff } from '@material-ui/icons';
-import VerticalAlignTopIcon from '@material-ui/icons/VerticalAlignTop';
-import CommentIcon from '@material-ui/icons/Comment';
+import { Block, ExpandMore, Warning, VisibilityOff } from '@mui/icons-material';
+import VerticalAlignTopIcon from '@mui/icons-material/VerticalAlignTop';
+import CommentIcon from '@mui/icons-material/Comment';
 import { highlightQuestion } from '@utils/itemHelpers';
 import { EditorContext } from '@contexts/EditorContext';
 // @ts-ignore

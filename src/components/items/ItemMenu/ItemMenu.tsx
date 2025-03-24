@@ -1,5 +1,5 @@
 import React, { FC, useContext, useRef, useState } from 'react';
-import { MoreVert } from '@material-ui/icons';
+import { MoreVert } from '@mui/icons-material';
 import { ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper } from '@mui/material';
 import { Constants } from '@kbss-cvut/s-forms';
 import {
@@ -12,7 +12,7 @@ import {
 } from '@utils/index';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@mui/icons-material/Add';
 import SquaredIconButton from '@styles/SquaredIconButton';
 import { CustomiseQuestion, OnSaveQuestionsCallback } from '@contexts/CustomiseQuestionContext';
 import useStyles from './ItemMenu.styles';

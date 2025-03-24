@@ -4,8 +4,8 @@ import { Modal, Paper, Table, TableBody, TableCell, TableContainer, TableHead, T
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import { ValidationContext, ValidationError } from '@contexts/ValidationContext';
-import FileCopyIcon from '@material-ui/icons/FileCopy';
-import { Warning } from '@material-ui/icons';
+import FileCopyIcon from '@mui/icons-material/FileCopy';
+import { Warning } from '@mui/icons-material';
 
 const ErrorsModal = () => {
   const classes = useStyles();

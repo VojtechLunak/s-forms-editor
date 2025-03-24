@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { cloneDeep } from 'lodash';
 import { Constants, FormUtils, Intl } from '@kbss-cvut/s-forms';
-import { JsonLdObj } from 'jsonld/jsonld-spec';
+import {Context, JsonLdObj} from 'jsonld/jsonld-spec';
 import FormStructure from '@model/FormStructure';
 import {
   buildFormStructureResursion,
@@ -34,7 +34,7 @@ interface FormStructureContextValues {
   updateFormStructure: (form: FormStructure) => void;
   setFormContext: Dispatch<SetStateAction<JsonLdObj>>;
   getClonedFormStructure: () => FormStructure;
-  formContext: JsonLdObj;
+  formContext: Context;
   updateNode: (question: FormStructureQuestion, intl: Intl) => void;
   isWizardless: boolean;
   setIsWizardless: Dispatch<SetStateAction<boolean>>;
@@ -58,7 +58,7 @@ const FormStructureProvider: React.FC<FormStructureProviderProps> = ({ children 
   // @ts-ignore
   const [formStructure, setFormStructure] = useState<FormStructure>(null);
   // @ts-ignore
-  const [formContext, setFormContext] = useState<JsonLdObj>(null);
+  const [formContext, setFormContext] = useState<Context>(null);
   const [formFile, setFormFile] = useState<JsonLdObj | null>(null);
   // @ts-ignore
   const [isWizardless, setIsWizardless] = useState<boolean>(true);

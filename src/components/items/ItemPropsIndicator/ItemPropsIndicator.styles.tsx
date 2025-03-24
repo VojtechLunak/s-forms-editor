@@ -1,4 +1,4 @@
-import { makeStyles } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
 import { amber, brown, green, purple, red, teal } from '@mui/material/colors';
 
 export default makeStyles(() => ({

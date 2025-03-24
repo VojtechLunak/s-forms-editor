@@ -1,5 +1,5 @@
 import { CustomisedOutlineButton } from '@styles/CustomisedOutlineButton';
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@mui/icons-material/Add';
 import React, { useContext, useRef } from 'react';
 import { NEW_QUESTION, NEW_WIZARD_SECTION_QUESTION } from '@constants/index';
 import { CustomiseQuestion, OnSaveQuestionsCallback } from '@contexts/CustomiseQuestionContext';
@@ -8,7 +8,7 @@ import useStyles from './SidebarNav.styles';
 import ConfigModal from '@components/mix/ConfigModal/ConfigModal';
 import { EditorContext } from '@contexts/EditorContext';
 import SidebarDroparea from '@components/sidebars/SidebarDroparea/SidebarDroparea';
-import { Code, ExpandLess, ExpandMore, Spellcheck } from '@material-ui/icons';
+import { Code, ExpandLess, ExpandMore, Spellcheck } from '@mui/icons-material';
 import { NavigationContext } from '@contexts/NavigationContext';
 import { exportForm } from '@utils/formHelpers';
 import { ValidationContext } from '@contexts/ValidationContext';
