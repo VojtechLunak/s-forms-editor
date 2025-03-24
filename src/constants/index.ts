@@ -1,4 +1,4 @@
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 
 export const NEW_QUESTION = {
   '@id': '',

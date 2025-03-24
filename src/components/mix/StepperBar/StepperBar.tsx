@@ -1,4 +1,4 @@
-import { Step, StepButton } from '@material-ui/core';
+import { Step, StepButton } from '@mui/material';
 import React, { useContext, useEffect } from 'react';
 import useStyles, {
   CustomisedConnector,

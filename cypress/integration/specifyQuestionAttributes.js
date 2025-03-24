@@ -9,7 +9,7 @@ import {
   getLayoutClassInput,
   saveSidebarForm
 } from '../helpers';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 
 describe('Specify question attributes', () => {
   beforeEach(() => {

@@ -10,7 +10,7 @@ import {
   removeFromSubquestions,
   removePrecedingQuestion
 } from '@utils/itemHelpers';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import {
   CHILD_1,
   getPseudoRandomId,

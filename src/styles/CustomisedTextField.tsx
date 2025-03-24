@@ -1,6 +1,6 @@
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import { ITheme } from '../interfaces';
-import { TextField } from '@material-ui/core';
+import TextField from '@mui/material/TextField';
 
 // @ts-ignore
 export const CustomisedTextField = withStyles((theme: ITheme) => ({

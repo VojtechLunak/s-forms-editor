@@ -1,4 +1,4 @@
-import { Grid, Tooltip } from '@material-ui/core';
+import { Grid, Tooltip } from '@mui/material';
 import CustomisedSwitch from '@styles/CustomisedSwitch';
 import useStyles from './FormTypeSwitch.styles';
 import HelpIcon from '@material-ui/icons/Help';

@@ -1,5 +1,5 @@
-import { Link } from '@material-ui/core';
-import Typography from '@material-ui/core/Typography';
+import { Link } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import { FC } from 'react';
 import useStyles from './Footer.styles';
 

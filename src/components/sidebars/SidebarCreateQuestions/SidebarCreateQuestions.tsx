@@ -1,11 +1,11 @@
 import React, { FormEvent, useContext, useState } from 'react';
-import { TextField } from '@material-ui/core';
+import { TextField } from '@mui/material';
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import useStyles from './SidebarCreateQuestions.styles';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import { CustomiseQuestionContext } from '@contexts/CustomiseQuestionContext';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { getUniqueId } from '@utils/itemHelpers';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import { EditorContext } from '@contexts/EditorContext';

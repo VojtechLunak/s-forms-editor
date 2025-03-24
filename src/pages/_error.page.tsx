@@ -1,7 +1,7 @@
 import { ErrorProps } from 'next/error';
 import { NextPage, NextPageContext } from 'next';
 import Router from 'next/router';
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 
 interface InitialProps {
   statusCode: number;

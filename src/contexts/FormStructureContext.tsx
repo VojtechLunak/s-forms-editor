@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { cloneDeep } from 'lodash';
-import { Constants, FormUtils, Intl } from 's-forms';
+import { Constants, FormUtils, Intl } from '@kbss-cvut/s-forms';
 import { JsonLdObj } from 'jsonld/jsonld-spec';
 import FormStructure from '@model/FormStructure';
 import {

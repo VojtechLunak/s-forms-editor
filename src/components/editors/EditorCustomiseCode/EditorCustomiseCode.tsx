@@ -5,7 +5,7 @@ import { buildFormStructure, exportForm } from '@utils/formHelpers';
 import JsonEditor from '@components/mix/JsonEditor/JsonEditor';
 import { JSONEditorMode } from 'jsoneditor';
 import { NavigationContext } from '@contexts/NavigationContext';
-import { VerticalSplit, Spellcheck } from '@material-ui/icons';
+import { VerticalSplit, Spellcheck } from '@mui/icons-material';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import { CustomisedOutlineButton } from '@styles/CustomisedOutlineButton';
 import { CustomisedButton } from '@styles/CustomisedButton';

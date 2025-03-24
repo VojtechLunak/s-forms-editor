@@ -1,6 +1,6 @@
 import React, { FormEvent, useContext } from 'react';
-import { Checkbox, FormControlLabel, TextField } from '@material-ui/core';
-import { Constants, FormUtils } from 's-forms';
+import { Checkbox, FormControlLabel, TextField } from '@mui/material';
+import { Constants, FormUtils } from '@kbss-cvut/s-forms';
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import useStyles from './SidebarCustomiseQuestion.styles';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormUtils } from 's-forms';
+import { FormUtils } from '@kbss-cvut/s-forms';
 import FormStructureNode from '@model/FormStructureNode';
 
 export const handleDragStart = (e: React.DragEvent<HTMLLIElement>) => {

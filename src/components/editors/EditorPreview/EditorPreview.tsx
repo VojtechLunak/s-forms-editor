@@ -1,5 +1,5 @@
 import { FC, useContext, useRef, useState } from 'react';
-import SForms, { Constants, Intl, SOptions } from 's-forms';
+import SForms, { Constants } from '@kbss-cvut/s-forms';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import useStyles from './EditorPreview.styles';
 import { EditorContext } from '@contexts/EditorContext';
@@ -73,17 +73,35 @@ const EditorPreview: FC<EditorPreviewProps> = ({}) => {
       });
     }
   };
-  const options: SOptions = {
+
+
+  const options: any = {
     modalView: false,
     horizontalWizardNav,
     wizardStepButtons: false,
     enableForwardSkip: true,
     startingQuestionId: SFormsConfig.startingQuestionId
   };
+  /**
+   *  const options = {
+   *             i18n: {
+   *                 'wizard.next': 'Next',
+   *                 'wizard.previous': 'Previous'
+   *             },
+   *             intl: {
+   *                 locale: 'cs'
+   *             },
+   *             modalView: false,
+   *             modalProps,
+   *             wizardStepButtons: true,
+   *             enableForwardSkip: true,
+   *             horizontalWizardNav: true,
+   *             // TODO: add "startingQuestionId" parameter to focus on question from ticket (implement at BE first)
+   *             // is dependant on caching formGen locally so that the ID of the question does not change everytime it is used
+   *         };
+   */
 
-  if (intl) {
-    options.intl = intlPreview;
-  }
+  options.intl = { locale: 'cs'};
 
   if (!form) {
     return null;
@@ -94,10 +112,16 @@ const EditorPreview: FC<EditorPreviewProps> = ({}) => {
       <PreviewConfig
         horizontalWizardNav={horizontalWizardNav}
         setHorizontalWizardNav={setHorizontalWizardNav}
-        intl={intlPreview}
-        setIntl={setIntlPreview}
+        //intl={intlPreview}
+        //setIntl={setIntlPreview}
       />
-      <SForms ref={sforms} form={form} options={options} fetchTypeAheadValues={(_) => new Promise(() => {})} />
+      <SForms
+        ref={sforms}
+        // @ts-ignore
+        form={form}
+        options={options}
+        fetchTypeAheadValues={(_) => new Promise(() => {})}
+      />
       <div className={classes.buttons}>
         <CustomisedOutlineButton
           variant="outlined"

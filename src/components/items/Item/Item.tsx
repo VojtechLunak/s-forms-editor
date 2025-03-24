@@ -7,7 +7,7 @@ import { handleDragEnd, handleDragStart, onItemClickHandler } from '@utils/index
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import { EditorContext } from '@contexts/EditorContext';
 import { CustomiseQuestion } from '@contexts/CustomiseQuestionContext';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import useOnMouseItemEvent from '../../../hooks/useOnMouseItemEvent/useOnMouseItemEvent';
 
 type ItemProps = {

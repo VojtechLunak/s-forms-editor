@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import useStyles from './ConfigModal.styles';
 import SettingsIcon from '@material-ui/icons/Settings';
-import { Modal, TextField } from '@material-ui/core';
+import { Modal, TextField } from '@mui/material';
 import { Autocomplete, createFilterOptions } from '@material-ui/lab';
 import FormTypeSwitch from '@components/mix/FormTypeSwitch/FormTypeSwitch';
 import { CustomisedButton } from '@styles/CustomisedButton';

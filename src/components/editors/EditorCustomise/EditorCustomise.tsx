@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Constants, FormUtils } from 's-forms';
+import { Constants, FormUtils } from '@kbss-cvut/s-forms';
 import Item from '@components/items/Item/Item';
 import ItemAdd from '@components/items/ItemAdd/ItemAdd';
 import { FormStructureContext } from '@contexts/FormStructureContext';

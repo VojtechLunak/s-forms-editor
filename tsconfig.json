@@ -6,7 +6,10 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
@@ -19,20 +22,42 @@
     "target": "esnext",
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@constants/*": ["./src/constants/*"],
-      "@contexts/*": ["./src/contexts/*"],
-      "@interfaces/*": ["./src/interfaces/*"],
-      "@model/*": ["./src/model/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@data/*": ["./src/data/*"]
-    }
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@contexts/*": [
+        "./src/contexts/*"
+      ],
+      "@interfaces/*": [
+        "./src/interfaces/*"
+      ],
+      "@model/*": [
+        "./src/model/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@data/*": [
+        "./src/data/*"
+      ]
+    },
+    "incremental": true
   },
   "exclude": [
     "semantic-form-web-editor/node_modules",
     "semantic-form-web-editor/cypress"
   ],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }

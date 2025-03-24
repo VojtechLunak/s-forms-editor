@@ -1,5 +1,5 @@
 import FormStructureNode from '@model/FormStructureNode';
-import { Constants, Intl } from 's-forms';
+import { Constants, Intl } from '@kbss-cvut/s-forms';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import FormStructure from '@model/FormStructure';
 import React from 'react';

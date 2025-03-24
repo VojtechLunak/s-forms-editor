@@ -1,5 +1,5 @@
-import { makeStyles } from '@material-ui/core/styles';
-import { amber, brown, green, purple, red, teal } from '@material-ui/core/colors';
+import { makeStyles } from '@mui/material/styles';
+import { amber, brown, green, purple, red, teal } from '@mui/material/colors';
 
 export default makeStyles(() => ({
   headerIndicators: {

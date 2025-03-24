@@ -1,7 +1,7 @@
 import React, { FC, useContext, useRef, useState } from 'react';
 import { MoreVert } from '@material-ui/icons';
-import { ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper } from '@material-ui/core';
-import { Constants } from 's-forms';
+import { ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper } from '@mui/material';
+import { Constants } from '@kbss-cvut/s-forms';
 import {
   getUniqueId,
   highlightQuestion,

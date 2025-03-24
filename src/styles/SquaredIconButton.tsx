@@ -1,4 +1,4 @@
-import { IconButton, withStyles } from '@material-ui/core';
+import { IconButton, withStyles } from '@mui/material';
 import { ITheme } from '@interfaces/index';
 
 // @ts-ignore

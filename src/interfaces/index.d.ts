@@ -1,5 +1,5 @@
-import { ColorPartial, Palette, SimplePaletteColorOptions } from '@material-ui/core/styles/createPalette';
-import { Theme, ThemeOptions } from '@material-ui/core';
+import { ColorPartial, Palette, SimplePaletteColorOptions } from '@mui/material/styles/createPalette';
+import { Theme, ThemeOptions } from '@mui/material/styles';
 
 interface IPalette extends Palette {
   custom: SimplePaletteColorOptions & ColorPartial;

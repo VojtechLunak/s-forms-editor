@@ -1,4 +1,4 @@
-import { createStyles, Switch, withStyles } from '@material-ui/core';
+import { createStyles, Switch, withStyles } from '@mui/material';
 import { ITheme } from '@interfaces/index';
 
 // @ts-ignore

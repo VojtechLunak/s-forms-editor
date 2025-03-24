@@ -1,4 +1,4 @@
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 
 export const QUESTION: FormStructureQuestion = {

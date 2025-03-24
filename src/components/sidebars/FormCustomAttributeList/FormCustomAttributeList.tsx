@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useContext, useState } from 'react';
 import { FORM_STRUCTURE_QUESTION_ATTRIBUTES, FormStructureQuestion } from '@model/FormStructureQuestion';
 import useStyles from './FormCustomAttributeList.styles';
-import { FormControl, IconButton, InputAdornment, InputLabel, Link, OutlinedInput } from '@material-ui/core';
+import { FormControl, IconButton, InputAdornment, InputLabel, Link, OutlinedInput } from '@mui/material';
 import AddIcon from '@material-ui/icons/Add';
 import FormCustomAttributeInput from '@components/sidebars/FormCustomAttributeInput/FormCustomAttributeInput';
 import { Clear } from '@material-ui/icons';

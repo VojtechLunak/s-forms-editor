@@ -1,6 +1,6 @@
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import { ITheme } from '../interfaces';
-import { FormControlLabel } from '@material-ui/core';
+import { FormControlLabel } from '@mui/material';
 
 // @ts-ignore
 export const CustomisedFormControlLabel = withStyles((theme: ITheme) => ({

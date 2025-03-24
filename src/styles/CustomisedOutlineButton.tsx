@@ -1,6 +1,6 @@
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import { ITheme } from '../interfaces';
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 
 // @ts-ignore
 export const CustomisedOutlineButton = withStyles((theme: ITheme) => ({

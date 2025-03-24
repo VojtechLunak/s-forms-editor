@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import useStyles from './ItemContent.styles';
 import { CustomisedCardContent } from '@styles/CustomisedCardContent';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
-import { FormUtils } from 's-forms';
+import { FormUtils } from '@kbss-cvut/s-forms';
 
 type ItemContentProps = {
   question: FormStructureQuestion;

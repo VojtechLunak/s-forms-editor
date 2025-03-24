@@ -10,12 +10,12 @@ import {
   TableHead,
   TableRow,
   TextField
-} from '@material-ui/core';
+} from '@mui/material';
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { EditorContext } from '@contexts/EditorContext';
 import { FormStructureQuestion, LanguageObject } from '@model/FormStructureQuestion';
 import { editLocalisedLabel, getIntl } from '@utils/formHelpers';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { createFakeChangeEvent } from '@utils/itemHelpers';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import DeleteIcon from '@material-ui/icons/Delete';

@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useEffect } from 'react';
 
 import { getIntl } from '@utils/formHelpers';
-import { Intl } from 's-forms';
+//import { Intl } from '@kbss-cvut/s-forms';
 
 interface EditorProviderProps {
   children: React.ReactNode;

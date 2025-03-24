@@ -1,26 +1,27 @@
-import { FormControl, InputLabel, MenuItem, Select } from '@material-ui/core';
+import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import React, { Dispatch, SetStateAction, useContext } from 'react';
 import useStyles from './PreviewConfig.styles';
 import WizardOrientationSwitch from '@components/mix/WizardOrientationSwitch/WizardOrientationSwitch';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import { EditorContext } from '@contexts/EditorContext';
 
-import { getIntl } from '@utils/formHelpers';
-import { Constants, Intl } from 's-forms';
+//import { getIntl } from '@utils/formHelpers';
+import { Constants } from '@kbss-cvut/s-forms';
 
 interface PreviewConfigProps {
   horizontalWizardNav: boolean;
   setHorizontalWizardNav: Dispatch<SetStateAction<boolean>>;
-  intl: Intl;
-  setIntl: Dispatch<SetStateAction<Intl>>;
+  //intl: Intl;
+  //setIntl: Dispatch<SetStateAction<Intl>>;
 }
 
 const PreviewConfig: React.FC<PreviewConfigProps> = ({
   horizontalWizardNav,
   setHorizontalWizardNav,
-  intl,
-  setIntl
+  //intl,
+  //setIntl
 }) => {
+  // @ts-ignore
   const classes = useStyles();
 
   const { isWizardless, formStructure } = useContext(FormStructureContext);

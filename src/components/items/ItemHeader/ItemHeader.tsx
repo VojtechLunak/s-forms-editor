@@ -1,5 +1,5 @@
 import React, { FC, useContext } from 'react';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { DragIndicator, ExpandLess, ExpandMore } from '@material-ui/icons';
 import useStyles, { CustomisedCardHeader } from './ItemHeader.styles';
 import ItemMenu from '@components/items/ItemMenu/ItemMenu';

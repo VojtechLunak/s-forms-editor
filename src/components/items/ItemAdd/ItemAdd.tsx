@@ -12,7 +12,7 @@ import {
   removePrecedingQuestion,
   sortRelatedQuestions
 } from '@utils/index';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import FormStructureNode from '@model/FormStructureNode';
 import { CustomiseQuestion, OnSaveQuestionCallback } from '@contexts/CustomiseQuestionContext';

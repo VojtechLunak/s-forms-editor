@@ -1,4 +1,4 @@
-import { Constants, FormUtils, Intl, JsonLdFramingUtils, JsonLdObjectUtils } from 's-forms';
+import { Constants, FormUtils, Intl, JsonLdFramingUtils, JsonLdObjectUtils } from '@kbss-cvut/s-forms';
 import * as jsonld from 'jsonld';
 import FormStructure from '@model/FormStructure';
 import FormStructureNode from '@model/FormStructureNode';

@@ -1,6 +1,6 @@
 import React, { FC, useContext, useEffect, useRef } from 'react';
 import useStyles, { CustomisedAccordionDetails } from './ItemFormEmpty.styles';
-import { Accordion } from '@material-ui/core';
+import { Accordion } from '@mui/material';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import AddIcon from '@material-ui/icons/Add';
 import { CustomiseQuestionContext, OnSaveQuestionsCallback } from '@contexts/CustomiseQuestionContext';

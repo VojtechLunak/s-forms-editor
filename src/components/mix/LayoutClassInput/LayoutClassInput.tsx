@@ -1,7 +1,7 @@
-import { Chip, TextField } from '@material-ui/core';
+import { Chip, TextField } from '@mui/material';
 import React, { useContext, useMemo } from 'react';
 import { Autocomplete } from '@material-ui/lab';
-import { Constants, FormUtils } from 's-forms';
+import { Constants, FormUtils } from '@kbss-cvut/s-forms';
 import { intersection } from 'lodash';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import { FormStructureContext } from '@contexts/FormStructureContext';

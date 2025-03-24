@@ -1,4 +1,4 @@
-import { Drawer } from '@material-ui/core';
+import { Drawer } from '@mui/material';
 import useStyles from './Sidebar.styles';
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { CustomiseQuestionContext } from '@contexts/CustomiseQuestionContext';

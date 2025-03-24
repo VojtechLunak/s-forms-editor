@@ -11,7 +11,7 @@ import {
   transformToSimpleForm,
   transformToWizardForm
 } from '@utils/formHelpers';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import { QUESTION } from '../../../__mock__';
 

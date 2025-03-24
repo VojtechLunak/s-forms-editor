@@ -1,7 +1,7 @@
 import { FormStructureQuestion, LanguageObject } from '@model/FormStructureQuestion';
 import React, { useContext } from 'react';
-import { TextField } from '@material-ui/core';
-import { Constants } from 's-forms';
+import { TextField } from '@mui/material';
+import { Constants } from '@kbss-cvut/s-forms';
 import { createFakeChangeEvent } from '@utils/itemHelpers';
 import { EditorContext } from '@contexts/EditorContext';
 import { editLocalisedLabel } from '@utils/formHelpers';

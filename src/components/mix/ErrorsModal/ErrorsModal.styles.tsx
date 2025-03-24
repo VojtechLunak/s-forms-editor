@@ -1,6 +1,6 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/material/styles';
 import { ITheme } from '@interfaces/index';
-import { red } from '@material-ui/core/colors';
+import { red } from '@mui/material/colors';
 
 export default makeStyles((theme: ITheme) => ({
   modal: {

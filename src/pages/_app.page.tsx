@@ -1,8 +1,8 @@
 import { AppProps } from 'next/app';
 import { NextPage } from 'next';
 import { SnackbarProvider } from 'notistack';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider } from '@mui/material/styles';
 import theme from '@styles/theme';
 import { useEffect } from 'react';
 

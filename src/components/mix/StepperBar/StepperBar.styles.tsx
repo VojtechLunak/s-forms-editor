@@ -1,6 +1,6 @@
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles, withStyles } from '@mui/material/styles';
 import { ITheme } from '@interfaces/index';
-import { StepConnector, StepIcon, StepLabel, Stepper } from '@material-ui/core';
+import { StepConnector, StepIcon, StepLabel, Stepper } from '@mui/material';
 
 export default makeStyles((theme: ITheme) => ({
   stepperBar: {

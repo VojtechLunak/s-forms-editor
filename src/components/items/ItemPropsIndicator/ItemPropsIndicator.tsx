@@ -1,8 +1,8 @@
 import useStyles from './ItemPropsIndicator.styles';
-import { Badge, Tooltip } from '@material-ui/core';
+import { Badge, Tooltip } from '@mui/material';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
 import React, { FC, useContext } from 'react';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 import { Block, ExpandMore, Warning, VisibilityOff } from '@material-ui/icons';
 import VerticalAlignTopIcon from '@material-ui/icons/VerticalAlignTop';
 import CommentIcon from '@material-ui/icons/Comment';

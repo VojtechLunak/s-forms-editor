@@ -1,5 +1,5 @@
-import { makeStyles, withStyles } from '@material-ui/core/styles';
-import { Card } from '@material-ui/core';
+import { makeStyles, withStyles } from '@mui/material/styles';
+import { Card } from '@mui/material';
 import { ITheme } from '@interfaces/index';
 
 export default makeStyles((theme: ITheme) => ({

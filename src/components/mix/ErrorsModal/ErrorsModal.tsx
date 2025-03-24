@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import useStyles from './ErrorsModal.styles';
-import { Modal, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core';
+import { Modal, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import { CustomisedButton } from '@styles/CustomisedButton';
 import { CustomisedLinkButton } from '@styles/CustomisedLinkButton';
 import { ValidationContext, ValidationError } from '@contexts/ValidationContext';

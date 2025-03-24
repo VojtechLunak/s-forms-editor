@@ -2,7 +2,7 @@ import React, { FC, useContext, useEffect, useMemo, useRef, useState } from 'rea
 import useStyles, { CustomisedAccordionDetails } from './ItemSection.styles';
 import ItemHeader from '@components/items/ItemHeader/ItemHeader';
 import { FormStructureQuestion } from '@model/FormStructureQuestion';
-import { Constants, FormUtils } from 's-forms';
+import { Constants, FormUtils } from '@kbss-cvut/s-forms';
 import { FormStructureContext } from '@contexts/FormStructureContext';
 import {
   detectIsChildNode,
@@ -11,7 +11,7 @@ import {
   handleDragStart,
   onItemClickHandler
 } from '@utils/index';
-import { Accordion } from '@material-ui/core';
+import { Accordion } from '@mui/material';
 
 import { EditorContext } from '@contexts/EditorContext';
 import { CustomiseQuestion } from '@contexts/CustomiseQuestionContext';

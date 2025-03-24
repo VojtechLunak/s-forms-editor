@@ -1,7 +1,7 @@
 import FormStructureNode from '@model/FormStructureNode';
 import { GRAND_CHILD_1, QUESTION } from '../../../__mock__';
 import { isSectionOrWizardStep } from '@utils/itemDragHelpers';
-import { Constants } from 's-forms';
+import { Constants } from '@kbss-cvut/s-forms';
 
 describe('isSectionOrWizardStep', () => {
   it('returns true for section ', () => {

@@ -1,5 +1,5 @@
 import useStyles from './SidebarCreateQuestionTab.styles';
-import { Tab, Tabs, Tooltip } from '@material-ui/core';
+import { Tab, Tabs, Tooltip } from '@mui/material';
 import React, { useContext } from 'react';
 import { CustomiseQuestionContext } from '@contexts/CustomiseQuestionContext';
 import HelpIcon from '@material-ui/icons/Help';

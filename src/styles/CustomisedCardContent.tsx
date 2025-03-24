@@ -1,6 +1,6 @@
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import { ITheme } from '@interfaces/index';
-import { CardContent } from '@material-ui/core';
+import { CardContent } from '@mui/material';
 
 // @ts-ignore
 export const CustomisedCardContent = withStyles((theme: ITheme) => ({
